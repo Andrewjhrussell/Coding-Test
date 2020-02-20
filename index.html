@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>WIZARD CODE QUIZ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+  <div id="container">
+    <header>
+      <h1>WIZARD CODE QUIZ</h1>
+      <br>
+      <p> DO YOU KNOW CODE MAGIC? LETS TEST YOUR MAGIC.</p>
+      <br>
+      <p>Your code magic is being tested! You are being timed!</p>
+      <br>
+    </header>
+
+    <div class="row">
+      <div class="col-lg-12">
+          <div id="runningTime">
+              <h3>Young Magician You Got 45 Secounds:<span id="time">45 seconds</span></h3>
+               <text id="startTime">45</text></text><br>
+        
+            </div>
+      </div>
+      <div>
+        <button id="startGame">Start</button>
+
+        <button id="endGame">End</button>
+    </div>
+     
+<!-- <div>
+    <button id="startGame">Start</button><br><br>
+    <text> <text id="startTime">60</text></text><br>
+    <br><button id="endGame">End</button>
+</div> -->
+
+    <section>
+      <br><div id="results"></div><br> <br>
+
+      <form name="Magic Code" onsubmit="return yourAnswers (a,b)">
+        <br><br>
+        <h3 id="startTime">1. Magic comes from your heart?</h3><br>
+        <input type="submit" name="q1" value="Click Button" id="q1a">a. True <br>
+        <input type="submit" name="q1" value="Click Button" id="q1b">b. False <br>
+       
+        <h3 id="Question"> 2.With Magic you can move objects with your mind and heart?</h3><br>
+        <input type="submit" name="q2" value="Click Button" id="q2a">a. True <br>
+        <input type="submit" name="q2" value="Click Button" id="q2b">b. False <br>
+        
+        <h3 id="Question"> 3. In Magic salt keeps negativity away?</h3><br>
+        <input type="submit" name="q3" value="Click Button" id="q3a">a. True <br>
+        <input type="submit" name="q3" value="Click Button" id="q3b">b. False <br>
+      
+        <h3 id="Question"> 4. In Magic pepper is a weapon </h3><br>
+        <input type="submit" name="q4" value="Click Button" id="q4a">a. True <br>
+        <input type="submit" name="q4" value="Click Button" id="q4b">b. False <br>
+        
+      
+        <br><br>
+        <input type="submit" value="Get Score">
+      </form>
+    </section>
+  </div>
+  <script src="script.js"></script>
+  <br>
+</body>
+</html>

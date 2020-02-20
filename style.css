@@ -1,0 +1,54 @@
+body{
+  
+    background-image:url(https://centerforcreativeconsciousness.com/wp-content/uploads/2015/02/merlin.jpg?w=217);
+    background-size: cover;
+    color:blue
+    font-family: Arial, Helvetica, sans-serif
+  }
+  #container {
+    width: 50%;
+    background-color: rgb(54, 147, 179);
+    margin:20px auto;
+    overflow:auto;
+    padding-top:25px;
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.6;
+    border-radius: 25px;
+    font-weight: 600;
+  }
+  header {
+  
+    font-size: 20px;
+    font-weight: 1000;
+  }
+  /* header h1{
+    margin:0;
+    padding:0;
+  } */
+  input[type="submit"]{
+    background-color:blue;
+    color:white;
+    border: solid white 1px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+  }
+  #Question {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  #results h3{
+    background-color:rgb(25, 34, 160);
+    padding:10px;
+    margin:10px 0;
+    opacity: 0.8;
+    font-weight: bolder; 
+    font-size: 18px;
+    color: rgb(21, 129, 26)
+  }
+  #results span {
+    color: red;
+    font-weight:bolder;
+    font-size: 20px;
+  }
