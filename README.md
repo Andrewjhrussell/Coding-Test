@@ -13,9 +13,6 @@ Badges
 Description
 In this assignment, I created timed code quiz with multiple-choice questions. This app  runs in the browser and shows updated HTML and CSS powered by your JavaScript code. It  also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
 
-## User Story
-
-```
 
 Table of contents
 Title, Description, Table Of Content, Installion, Usage, License, Contribution Test, Question, Demo
